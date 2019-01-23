@@ -9,13 +9,13 @@ RUN apt-get update \
   && apt-get install -y git curl \
   && rm -rf /var/lib/apt/lists/*
 
-RUN curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash \
+RUN /bin/bash -c "curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash \
   && source /root/.profile \
-  && nvm install v10.15.0
+  && nvm install v10.15.0"
 
 RUN cp -f /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
   && git config --global user.name "deploy" \
-  && git config --global user.email "deploy@foresh.com"
+  && git config --global user.email "deploy@foresh.com" \
   && mkdir -p /root/.ssh \
   && echo "StrictHostKeyChecking no" >> /root/.ssh/config \
   && echo "UserKnownHostsFile /dev/null" >> /root/.ssh/config \
