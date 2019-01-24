@@ -4,4 +4,4 @@ cd $BOOKDIR
 
 gitbook install
 gitbook build
-gitbook serve
+gitbook serve --no-live

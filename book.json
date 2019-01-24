@@ -1,9 +1,9 @@
 {
     "root": "./",
-    "title": "示例文档",
-    "head_title": "_示例文档_字条网",
-    "head_description": "字条网示例文档",
-    "head_keywords": "字条,字条网,示例文档",
+    "title": "wiki文档",
+    "head_title": "_臻世wiki",
+    "head_description": "邹城臻世环境科技有限公司wiki文档",
+    "head_keywords": "wiki,臻世环境",
     "logo": "./images/logo.png",
 
     "gitbook": ">= 3.0.0",
@@ -22,7 +22,7 @@
 
     "pluginsConfig": {
         "sitemap-general": {
-            "prefix": "http://zitiao.org/simple/"
+            "prefix": "https://wiki.foresh.com/"
         }
     }
 }
