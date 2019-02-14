@@ -1,9 +1,9 @@
 {
     "root": "./",
-    "title": "wiki文档",
-    "head_title": "_臻世wiki",
-    "head_description": "邹城臻世环境科技有限公司wiki文档",
-    "head_keywords": "wiki,臻世环境",
+    "title": "思与察",
+    "head_title": "_臻世说",
+    "head_description": "周遭世界的思考与观察",
+    "head_keywords": "wiki,臻世环境,臻世说",
     "logo": "./images/logo.png",
 
     "gitbook": ">= 3.0.0",
