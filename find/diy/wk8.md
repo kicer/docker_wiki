@@ -10,7 +10,7 @@
 
 [电路原理图](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/raw/master/SchematicDiagram/WIFI_Kit_8_Schematic_diagram.PDF)
 
-![wk8-detail](/images/find/diy/8d8981360142826323d5122.jpg)
+![wk8-detail](/images/find/diy/8d89813601428263.jpg)
 
 ```
 WiFi: esp8266
